@@ -1,0 +1,12 @@
+{
+  "name": "moco-track",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jesus Gollonet",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^16.4.1"
+  }
+}
