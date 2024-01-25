@@ -1,4 +1,3 @@
-//54a8b97534503561a36905afea5a5655
 import dotenv from "dotenv";
 dotenv.config();
 const { API_KEY, BASE_URL } = process.env;
