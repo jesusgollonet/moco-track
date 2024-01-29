@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Jesus Gollonet",
+  "bin": {
+    "moco": "./bin/index.js"
+  },
   "type": "module",
   "license": "MIT",
   "private": false,
