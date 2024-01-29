@@ -14,9 +14,17 @@ cp .env.example .env
 
 `BASE_URL`: your org-based moco url https://$YOURORG.mocapp.com
 
-There's no binary just yet, 
+Then install with
 
 ```
 yarn
-node index.js
+```
+
+## Link as a global cli
+
+In order to run this as a global cli (that is, just running it as `moco` instead
+of `node index.js` or `./bin/index.js`):
+
+```
+yarn link --global .
 ```
