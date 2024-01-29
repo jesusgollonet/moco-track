@@ -1,5 +1,7 @@
 import dotenv from "dotenv";
-dotenv.config();
+// load from absolute path
+const dir = new URL(".", import.meta.url).pathname;
+dotenv.config({ path: dir + "./.env" });
 
 const { API_KEY, BASE_URL } = process.env;
 
